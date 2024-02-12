@@ -1,0 +1,136 @@
+@media only screen and (max-width:767px){
+    p{
+        font-size: 16px;
+    }
+    .h1-main{
+        font-size: 3rem;
+    }
+    .big-text{
+        font-size: 1.5rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: var(--light-green);
+        padding-bottom: 30px;
+    }
+    .intro-subheading{
+        font-size: 2.5rem;
+    }
+    /* SERVICES */
+    .service-nav-wrapper{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+    }
+    .service-ball-content{
+        align-items: center;
+    }
+    .mobile .service-nav-wrapper{
+        flex-direction: column;
+    }
+    .service-ball-arrow{
+        display: none;
+    }
+    #ServiceIntro{
+        padding-top: 50px;
+    }
+    svg.svg-service-ball {
+        width: 150px;
+        height: 150px;
+    }
+    .service-smallNavWrapper{
+        display: none;
+    }
+    /* PROJECTS */
+    #ServicesSection{
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    .projects-info{
+        display: none;
+    }
+    .filters-wrapper   {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+    .projects-graph{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .project.task-description-area{
+        flex-direction: column;
+    }
+    /* ABOUT PAGE */
+    .about-wrapper{
+        flex-direction: column;
+    }
+    
+    /* NAV MENU */
+    #MobileNavBar{
+        position: absolute;
+        top: 0;
+        height: 50px;
+        width: 100%;
+    }
+    #mainIntro{
+        z-index: 2;
+    }
+    #Hamburger{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: var(--light-green);
+        position: fixed;
+        z-index: 2;
+    }
+    #Hamburger .nav-bar-button{
+        color: var(--bg-color);
+    }
+    #Hamburger.show{
+        animation: slide-down 0.5s forwards;
+    }
+    #Hamburger.close{
+        animation: slide-up 0.5s forwards;
+    } 
+    #Hamburguer .hamburguer{
+        width: 30px;
+    }
+    #Slidemenu{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        max-width: 300px;
+        width: 100%;
+        background-color: var(--light-green);
+        left: 0;
+    }
+    .btn-close-slidemenu{
+        display: flex;
+        justify-content: end;
+    }
+    #Slidemenu .nav-bar-button{
+        color: var(--bg-color);
+    }
+    .btn-close-slidemenu svg, .btn-hamburguer svg{
+        padding: 10px;
+    }
+
+    /* ANIMATIONS */
+    .text-up{
+        animation: text-up-mobile 1s forwards;
+        top: 10vh;
+    }
+    /* GENERAL */
+    section:not(#Contact, #Projects){
+        padding-top: 100px;
+    }
+    #Projects.opened{
+        z-index: 3;
+    }
+}

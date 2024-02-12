@@ -1,0 +1,74 @@
+@media only screen and (min-width: 768px) {
+    p{
+        font-size: 18px;
+    }
+    .h1-main{
+        font-size: 4rem;
+    }
+    .big-text{
+        font-size: 3rem;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #Services{
+        align-items: center;
+    }
+    .intro-subheading{
+        font-size: 3.2rem;
+    }
+    .service-ball-content{
+        flex-direction: column;
+    }
+    .service-info, .projects-info{
+        width: 100%;
+        max-width:40%;
+        height: fit-content;
+    }
+    .projects-info{
+        min-height: 600px;
+    }
+    .service-content, .projects-content{
+        display: flex;
+        align-items: center;
+        max-width: 1200px;
+    }
+    .projects-content{
+        height: 100vh;;
+    }
+    svg.svg-service-ball {
+        width: 200px;
+        height: 200px;
+    }
+    .service-graph, .projects-graph{
+        width: 100%;
+        max-width: 60%;
+    }
+    #ServicesContent{
+        margin: 50px 0;
+    }
+    /* ABOUT PAGE */
+    .about.left-side{
+        width: 35%;
+    }
+    .about.right-side{
+        width: 65%;
+    }
+    .about.left-info{
+        text-align: right;
+    }
+    .about-wrapper{
+        margin-top: 200px;
+    }
+    /* ANIMATIONS */
+    .text-up{
+        animation: text-up 1s forwards;
+        top: 30vh;
+    }
+    /* PROJECTS */
+    .project.task-description{
+        width: 30%;
+    }
+    .contact-wrapper{
+        border: 1px solid var(--light-green);
+    }
+}

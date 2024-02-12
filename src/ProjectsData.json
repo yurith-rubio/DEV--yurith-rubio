@@ -1,0 +1,529 @@
+{
+    "data": [
+        {
+            "name": "therapiedecken",
+            "heading": "TherapieDecken.de",
+            "description": [
+                "Senso-Rex, the company behind TherapieDecken.de has been producting weighed blankets since 2013.", 
+                "As the main IT memeber in charge of the store, I brough my advice and ideas for the new design and setup of the store, initially I would sketch the new features on Figma to later develop them, but as the load of work increased, I worked with a great team of designers, as well with the marketing team.",
+                "In this way, I would receive the designs and then develop them, some features and UI was proposed and designed by me. At the end every new feature and design needed to be checked and approved by me before my manager, with the responsibility of having a functional and responsive website."
+            ],
+            "logo": "/therapiedecken_logo.jpg",
+            "shortDescription": "Therapiedecken is an online Shopify store that sells weighed blankets as their main products.",
+            "storeLink": "https://therapiedecken.de",
+            "client": "Ecommerce&More",
+            "tools": ["HTML", "CSS", "Liquid", "Javascript"],
+            "tasks": [
+                {
+                    "title": "New features",
+                    "items": [
+                        "Filter products by tag on the collection page.",
+                        "Slidecart",
+                        "Upsells on the slidecart and product pages",
+                        "Countdown on the slidecart, header, product page and checkout page.",
+                        "Set product page (joining two and three products on one product page, making it look as a product set"                    
+                    ]
+                },
+                {
+                    "title": "UX and UI:",
+                    "items": [
+                        "Selecting the new theme for the setup of the new store.",
+                        "Sticky product on the product page while scrolling down.",
+                        "Hide and show header while scrolling up or down."
+                    ]
+                },
+                {
+                    "title": "Responsiveness",
+                    "items": [
+                        "Adapt all sizes to mobile",
+                        "Re-arrange images to show image first then the text below",
+                        "Show button -go to the top- only on mobile"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Homepage",
+                    "screenImage": "/td-homepage.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Landing page",
+                    "screenImage": "/td-leading-page.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Product page",
+                    "screenImage": "/td-product-page.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Slidecart",
+                    "screenImage": "/td-slidecart.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Homepage - mobile",
+                    "screenImage": "/td-homepage-mobile.webp",
+                    "screenGadget": "mobile"
+                },
+                {
+                    "screenHeading": "Leading page - mobile",
+                    "screenImage": "/td-leading-page-mobile.webp",
+                    "screenGadget": "mobile"
+                },
+                {
+                    "screenHeading": "Product page - mobile",
+                    "screenImage": "/td-product-page-mobile.webp",
+                    "screenGadget": "mobile"
+                }
+            ],
+            "tags": ["shopify", "javascript", "ux"]
+            
+        },
+        {
+            "name": "therapiewelt",
+            "heading": "TherapieWelt.de",
+            "description": [
+                "As with Therapiedecken, Therapiewelt is an online store that offers weighted blankets and other products related to the well-being of people.",
+                "Leading the IT team, I was in charge to incorporate some changes from TD on TW plus other features that were not on the TD store."
+            ],
+            "logo": "/therapiewelt_logo.jpg",
+            "shortDescription": "Therapiewelt is an online Shopify store that sells weighed blankets and other products to help people with sleeping problem among others.",
+            "storeLink": "https://therapiewelt.de",
+            "client": "Ecommerce&More",
+            "tools": ["HTML", "CSS", "Liquid", "Javascript"],
+            "tasks": [
+                {
+                    "title": "New features",
+                    "items": [
+                        "Filter products by tag on the collection page.",
+                        "Slidecart",
+                        "Upsells on the slidecart and product pages",
+                        "Countdown on the slidecart, header, product page and checkout page.",
+                        "Set product page (joining two and three products on one product page, making it look as a product set"                    
+                    ]
+                },
+                {
+                    "title": "UX and UI:",
+                    "items": [
+                        "Selecting the new theme for the setup of the new store.",
+                        "Sticky product on the product page while scrolling down.",
+                        "Hide and show header while scrolling up or down."
+                    ]
+                },
+                {
+                    "title": "Responsiveness",
+                    "items": [
+                        "Adapt all sizes to mobile",
+                        "Re-arrange images to show image first then the text below",
+                        "Show button -go to the top- only on mobile"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Homepage",
+                    "screenImage": "/tw-homepage.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Filters page",
+                    "screenImage": "/tw-filters-page.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Product page",
+                    "screenImage": "/tw-product-page.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Homepage - mobile",
+                    "screenImage": "/tw-homepage-mobile.webp",
+                    "screenGadget": "mobile"
+                },
+                {
+                    "screenHeading": "Collection page - mobile",
+                    "screenImage": "/tw-collection-page-mobile.webp",
+                    "screenGadget": "mobile"
+                },
+                {
+                    "screenHeading": "Product page - mobile",
+                    "screenImage": "/tw-product-page-mobile.webp",
+                    "screenGadget": "mobile"
+                }
+            ],
+            "tags": ["shopify", "javascript", "ux"]
+        },
+        {
+            "name": "katzenrobo",
+            "heading": "Katzenrobo.de",
+            "description": [
+                "Offers an automated litter box that filters climps into a waste drawer, leaving the work of cleaning the cat toilets to a robot.",
+                "As the main IT member, I got the task to set the first store and design the look of the UI, later on, the new team of designers were in charge of the rest of the deisng and I would develop the design changes."
+            ],
+            "logo": "/katzenrobo_logo.jpg",
+            "shortDescription": "Sells robot litter boxes to clean the dung of cats.",
+            "storeLink": "https://katzenrobo.de",
+            "client": "GoMedia",
+            "tools": ["HTML", "CSS", "Liquid", "Javascript"],
+            "tasks": [
+                {
+                    "title": "New features",
+                    "items": [
+                        "Block: Slideshow with icons on under the hero image - homepage",
+                        "Block: Vorteile des KatzenRobo - homepage",
+                        "Block: Die wichtigsten Funktionen des KatzenRobos - homepage",
+                        "Block: Häufige Fragen - homepage",
+                        "Slidecart",
+                        "Upsells on the slidecart and product pages",
+                        "Countdown on the slidecart, header, product page and checkout page.",
+                        "Set product page (joining two and three products on one product page, making it look as a product set",
+                        "New landing page: https://katzenrobo.de/pages/hilfreiche-tipps"             
+                    ]
+                },
+                {
+                    "title": "UX and UI:",
+                    "items": [
+                        "Selecting and seting up the new theme.",
+                        "UI product options' buttons styling.",
+                        "Hide and show header while scrolling up or down."
+                    ]
+                },
+                {
+                    "title": "Responsiveness",
+                    "items": [
+                        "Adapt all sizes to mobile",
+                        "Show icons with slideshow on mobile - homepage"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Homepage",
+                    "screenImage": "/kr-homepage.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Product page",
+                    "screenImage": "/kr-product-page.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Slidecart",
+                    "screenImage": "/kr-slidecart.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Homepage - mobile",
+                    "screenImage": "/kr-homepage-mobile.webp",
+                    "screenGadget": "mobile"
+                },
+                {
+                    "screenHeading": "Product page - mobile",
+                    "screenImage": "/kr-product-page-mobile.webp",
+                    "screenGadget": "mobile"
+                }
+            ],
+            "tags": ["shopify", "javascript", "ux"]
+        },
+        {
+            "name": "komfortkissen",
+            "heading": "KomfortKissen.de",
+            "description": [
+                "Their main product is a big pillow that helps people to get a good sleep and a comfortable support when laying down on it. Working on this store, I helped setting a new theme for the store, creating new product landing pages, adding new blocks, etc."
+            ],
+            "logo": "/komfortkissen_logo.avif",
+            "shortDescription": "Sells big pillows for a good rest",
+            "storeLink": "https://komfortkissen.de",
+            "client": "GoMedia",
+            "tools": ["HTML", "CSS", "Liquid", "Javascript"],
+            "tasks": [
+                {
+                    "title": "New features",
+                    "items": [
+                        "Editing badges (Bestseller / Rabattcode) - homepage",
+                        "Landing page: FlügelKissen",
+                        "Slidecart",
+                        "KomfortKissen - Product page design - icons section, metafileds info, vorteile block, video",
+                        "Upsells on the slidecart and product pages",
+                        "Countdown on the slidecart, header, product page and checkout page."            
+                    ]
+                },
+                {
+                    "title": "UX and UI:",
+                    "items": [
+                        "Selecting and seting up the new theme.",
+                        "UI product options' buttons styling."
+                    ]
+                },
+                {
+                    "title": "Responsiveness",
+                    "items": [
+                        "Adapt all sizes to mobile",
+                        "Show icons with slideshow on mobile - homepage"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Homepage",
+                    "screenImage": "/kk-homepage.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Product page",
+                    "screenImage": "/kk-product-page.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Landing page",
+                    "screenImage": "/kk-landing-page.webp",
+                    "screenGadget": "computer"
+                }
+            ],
+            "tags": ["shopify", "javascript"]
+        },
+        {
+            "name": "Küchenkompane.de",
+            "heading": "Kuechenkompane.de",
+            "description": [
+                "Sells handmade cooking knives</p><p>I was hired to redesign their online store with a fresh look, unfortunatelly the client decided to go back to the old design, for this you can see the design on my partner store"
+            ],
+            "logo": "/therapiedecken_logo.png",
+            "shortDescription": "Sells robot litter boxes to clean the dung of cats.",
+            "storeLink": "https://kuechenkompane.de",
+            "figmaLink": "https://www.figma.com/proto/D69vmoVz5YojgFpY2JNtXZ/Final-design?type=design&node-id=1025-1014&t=ekmnG6saZ0Jdyrj3-1&scaling=min-zoom&page-id=762%3A915&starting-point-node-id=1025%3A1014&mode=design",
+            "client": "Matts Radzuweit",
+            "tools": ["HTML", "CSS", "Liquid", "Javascript", "Figma", "Krita"],
+            "tasks": [
+                {
+                    "title": "Store's design",
+                    "items": [
+                        "Redesign the whole store",
+                        "Design illustrations",
+                        "Setup the new theme",
+                        "Animate intro text"
+                    ]
+                },
+                {
+                    "title": "New features",
+                    "items": [
+                        "Block: Why us?",
+                        "Block: Video - product page / homepage",
+                        "Block: Knives' information - product page",
+                        "Block: Knives' process"        
+                    ]
+                },
+                {
+                    "title": "Responsiveness",
+                    "items": [
+                        "Adapt all sizes to mobile",
+                        "Show icons with slideshow on mobile - homepage"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Homepage",
+                    "screenImage": "/kuk-homepage.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Product page",
+                    "screenImage": "/kuk-product-page.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Product page - mobile",
+                    "screenImage": "/kuk-product-page-mobile.webp",
+                    "screenGadget": "mobile"
+                },
+                {
+                    "screenHeading": "Landing page - mobile",
+                    "screenImage": "/kuk-landing-page-mobile.webp",
+                    "screenGadget": "mobile"
+                }
+            ],
+            "tags": ["shopify", "javascript", "design"]
+        },
+        {
+            "name": "nico",
+            "heading": "Nico.com",
+            "description": ["Here is the description of the prroject Nico.com"],
+            "logo": "/nico-logo.webp",
+            "shortDescription": "Sells robot litter boxes to clean the dung of cats.",
+            "storeLink": "https://nico-playground.myshopify.com/",
+            "client": "Denisse Pina, password: nico",
+            "tools": ["HTML", "CSS", "Liquid", "Javascript", "Figma"],
+            "tasks": [
+                {
+                    "title": "Store's design and setup",
+                    "items": [
+                        "Setup the Shopify theme",
+                        "Store's design",
+                        "Icons design",
+                        "Animations"
+                    ]
+                },
+                {
+                    "title": "Info setup",
+                    "items": [
+                        "Upload product's images and info",
+                        "AI Content creation for collection pages and landing pages"
+                    ]
+                },
+                {
+                    "title": "Responsiveness",
+                    "items": [
+                        "Adapt design to a mobile format"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Homepage design",
+                    "screenImage": "/nico-homepage.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Product page",
+                    "screenImage": "/nico-collection-page.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Product page",
+                    "screenImage": "/nico-product-page.webp",
+                    "screenGadget": "mobile"
+                }
+            ],
+            "tags": ["shopify", "javascript", "ux", "design", "management"]
+        },
+        {
+            "name": "swissens",
+            "heading": "Swissens",
+            "description": ["I designed a landing page for Swissens"],
+            "logo": "/swisens-logo.webp",
+            "shortDescription": "Sells robot litter boxes to clean the dung of cats.",
+            "storeLink": "https://www.swisens.ch/",
+            "figmaLink": "https://www.figma.com/proto/gEjrVhfU8kI8rQ6ooFmz7P/Swisens-FILES?type=design&node-id=294-65&t=op6OyCGeRm9pfqy7-0&scaling=min-zoom&page-id=270%3A55&starting-point-node-id=294%3A65&show-proto-sidebar=1",
+            "client": "Petra Müller",
+            "tools": ["HTML", "CSS", "Wordpress", "Elementor", "Figma"],
+            "tasks": [
+                {
+                    "title": "Store's design",
+                    "items": [
+                        "Redesign the whole store",
+                        "Design illustrations",
+                        "Setup the new theme",
+                        "Animate intro text"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Landing page design",
+                    "screenImage": "/sw-lp-design.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Landing page wireframe",
+                    "screenImage": "/sw-lp-wireframe.webp",
+                    "screenGadget": "computer"
+                },
+                {
+                    "screenHeading": "Popup",
+                    "screenImage": "/sw-popup.webp",
+                    "screenGadget": "mobile"
+                }
+            ],
+            "tags": ["landing-page", "design"]
+        },
+        {
+            "name": "Food creator",
+            "heading": "Food creator app",
+            "description": ["Sketch of an app that creates meals and shows the macronutrients, calories and macronutrients percentage"],
+            "logo": "/yurviz-logo.png",
+            "shortDescription": "Project that intends to show info of a meal in a creative way",
+            "storeLink": "",
+            "webLink": "https://yurith-rubio.github.io/FoodMealCreator/",
+            "figmaLink": "https://www.figma.com/proto/gkcRBzgfyXCGRF1Xr9TYNB/Food-meal-creator?type=design&node-id=23-20&t=op6OyCGeRm9pfqy7-0&scaling=min-zoom&page-id=0%3A1",
+            "client": "Personal project",
+            "tools": ["d3", "HTML", "CSS", "Javascript", "React", "Figma"],
+            "tasks": [
+                {
+                    "title": "Application prototype",
+                    "items": [
+                        "Design concept",
+                        "Creation of graphs with the use of d3",
+                        "Development using React"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Application prototype",
+                    "screenImage": "/fc-landing-page.webp",
+                    "screenGadget": "computer"
+                }
+            ],
+            "tags": ["d3", "react", "data-visualization", "design"]
+        },
+        {
+            "name": "Tableau charts",
+            "heading": "Tableau charts",
+            "description": ["A short project to play with charts"],
+            "logo": "/yurviz-logo.png",
+            "shortDescription": "Use of Tableau",
+            "storeLink": "https://www.swisens.ch/",
+            "figmaLink": "https://www.figma.com/proto/gEjrVhfU8kI8rQ6ooFmz7P/Swisens-FILES?type=design&node-id=294-65&t=op6OyCGeRm9pfqy7-0&scaling=min-zoom&page-id=270%3A55&starting-point-node-id=294%3A65&show-proto-sidebar=1",
+            "client": "Personal project",
+            "tools": ["Tableau"],
+            "tasks": [
+                {
+                    "title": "Application prototype",
+                    "items": [
+                        "Design concept",
+                        "Creation of graphs with the use of d3",
+                        "Development using React"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Tableau charts",
+                    "screenImage": "/tableau-execute-overview.webp",
+                    "screenGadget": "computer"
+                }
+            ],
+            "tags": ["tableau", "data-visualization"]
+        },
+        {
+            "name": "Avocado Analytics",
+            "heading": "Avocado Analytics graphs",
+            "description": ["Line charts created with python dash - information and example comes from the tutorial on this page: https://realpython.com/python-dash/"],
+            "logo": "/yurviz-logo.png",
+            "shortDescription": "Graphs that show the price and type of avocados sold in a year - Tutorial followed on this page: https://realpython.com/python-dash/",
+            "storeLink": "",
+            "webLink": "http://yurith.eu.pythonanywhere.com/",
+            "client": "Personal project",
+            "tools": ["CSS", "python", "dash"],
+            "tasks": [
+                {
+                    "title": "Graph development",
+                    "items": [
+                        "Deveop a chart with the use of dash"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Avocado Analytics",
+                    "screenImage": "/avocado-analytics.webp",
+                    "screenGadget": "computer"
+                }
+            ],
+            "tags": ["python-dash", "data-visualization"]
+        }
+    ]
+}
