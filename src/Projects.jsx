@@ -146,6 +146,7 @@ export default function PortfolioChart() {
           .text('Web link: ')
           .append('b')
           .append('a')
+          .attr('target', '_blank')
           .classed('project webLink underlined-link', true)
           .attr('href', value.webLink)
           .text('See it on this link')
@@ -327,7 +328,9 @@ export default function PortfolioChart() {
         <div className='project task-description'>
           <img className='project imgLogo'/>
           <p className='project shortDescription'></p>
-          <p className={liveStore ? "" : "hidden"}>Live store: <b><a className='project storeLink underlined-link' target="_blank">No live store</a></b></p>
+          <p className={liveStore ? "" : "hidden"}>Live store: <b>
+            <a className='project storeLink underlined-link' target="_blank">No live store</a></b>
+          </p>
           <p className='webLink'></p>
           <p className='figma'></p>
           <p>Client: <b className='project client'></b></p>

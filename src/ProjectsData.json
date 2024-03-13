@@ -576,6 +576,33 @@
                 }
             ],
             "tags": ["js-framework", "typescript"]
+        },
+        {
+            "name": "Power Generation Graph",
+            "heading": "Power Generation Graph",
+            "description": ["Data Visualization"],
+            "logo": "/yurviz-logo.png",
+            "shortDescription": "This is a graph that shows the power generation of a company, the data was taken from a CSV file and then it was processed with Python and Pandas, the graph was developed with D3",
+            "storeLink": "",
+            "webLink": "https://power-generation-graph.netlify.app/",
+            "client": "Personal project",
+            "tools": ["React", "Python", "Pandas", "D3", "SQL", "CSS", "Git", "Github", "Netlify"],
+            "tasks": [
+                {
+                    "title": "Graph development",
+                    "items": [
+                        "Deveop a chart with the use of dash"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Preview",
+                    "screenImage": "/power-graph-cover.png",
+                    "screenGadget": "computer"
+                }
+            ],
+            "tags": ["js-framework", "python"]
         }
     ]
 }
