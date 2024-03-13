@@ -78,7 +78,7 @@
                     "screenGadget": "mobile"
                 }
             ],
-            "tags": ["shopify", "javascript", "ux"]
+            "tags": ["shopify", "javascript"]
             
         },
         {
@@ -153,7 +153,7 @@
                     "screenGadget": "mobile"
                 }
             ],
-            "tags": ["shopify", "javascript", "ux"]
+            "tags": ["shopify", "javascript"]
         },
         {
             "name": "katzenrobo",
@@ -225,7 +225,7 @@
                     "screenGadget": "mobile"
                 }
             ],
-            "tags": ["shopify", "javascript", "ux"]
+            "tags": ["shopify", "javascript"]
         },
         {
             "name": "komfortkissen",
@@ -397,7 +397,7 @@
                     "screenGadget": "mobile"
                 }
             ],
-            "tags": ["shopify", "javascript", "ux", "design", "management"]
+            "tags": ["shopify", "javascript"]
         },
         {
             "name": "swissens",
@@ -437,7 +437,7 @@
                     "screenGadget": "mobile"
                 }
             ],
-            "tags": ["landing-page", "design"]
+            "tags": ["design"]
         },
         {
             "name": "Food creator",
@@ -449,7 +449,7 @@
             "webLink": "https://yurith-rubio.github.io/FoodMealCreator/",
             "figmaLink": "https://www.figma.com/proto/gkcRBzgfyXCGRF1Xr9TYNB/Food-meal-creator?type=design&node-id=23-20&t=op6OyCGeRm9pfqy7-0&scaling=min-zoom&page-id=0%3A1",
             "client": "Personal project",
-            "tools": ["d3", "HTML", "CSS", "Javascript", "React", "Figma"],
+            "tools": ["HTML", "CSS", "Javascript", "React", "Figma"],
             "tasks": [
                 {
                     "title": "Application prototype",
@@ -467,7 +467,7 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["d3", "react", "data-visualization", "design"]
+            "tags": ["js-framework", "data-visualization", "design"]
         },
         {
             "name": "Avocado Analytics",
@@ -476,7 +476,7 @@
             "logo": "/yurviz-logo.png",
             "shortDescription": "Graphs that show the price and type of avocados sold in a year - Tutorial followed on this page: https://realpython.com/python-dash/",
             "storeLink": "",
-            "webLink": "http://yurith.eu.pythonanywhere.com/",
+            "webLink": "",
             "client": "Personal project",
             "tools": ["CSS", "python", "dash"],
             "tasks": [
@@ -494,7 +494,7 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["python-dash", "data-visualization"]
+            "tags": ["data-visualization"]
         },
         {
             "name": "Inmyshoes",
@@ -505,7 +505,7 @@
             "storeLink": "",
             "webLink": "https://inmyshoes.space",
             "client": "Personal project",
-            "tools": ["React", "Typescrip", "NodeJs", "Vite", "Git", "Github", "SQL", "sqlite", "Docker", "Express", "Figma", "HTML", "CSS"],
+            "tools": ["React", "Typescript", "NodeJs", "Vite", "Git", "Github", "SQL", "sqlite", "Docker", "Express", "Figma", "HTML", "CSS"],
             "tasks": [
                 {
                     "title": "Graph development",
@@ -521,7 +521,7 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["react", "typescript"]
+            "tags": ["js-framework", "typescript", "design"]
         },
         {
             "name": "Web Porfolio",
@@ -532,7 +532,7 @@
             "storeLink": "",
             "webLink": "https://karendejim.netlify.app",
             "client": "Karen Delgado",
-            "tools": ["React", "Typescrip", "Tailwind", "NextJs", "Git", "Github", "Docker", "Netlify"],
+            "tools": ["React", "Typescript", "Tailwind", "NextJs", "Git", "Github", "Netlify"],
             "tasks": [
                 {
                     "title": "Graph development",
@@ -548,7 +548,34 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["react", "typescript"]
+            "tags": ["js-framework", "typescript"]
+        },
+        {
+            "name": "Personal Dashboard",
+            "heading": "Personal Dashboard",
+            "description": ["Web Aplication"],
+            "logo": "/yurviz-logo.png",
+            "shortDescription": "This is a web aplication developed with SvelteKit, I had to create a dashboard based on a Figma design, when the edit button is clicked, people can edit the information of the form which is saved in a database",
+            "storeLink": "",
+            "webLink": "https://personal-dashboard-svelte.netlify.app/",
+            "client": "Personal project",
+            "tools": ["SvelteKit", "Typescript", "CSS", "Git", "Github", "Netlify"],
+            "tasks": [
+                {
+                    "title": "Graph development",
+                    "items": [
+                        "Deveop a chart with the use of dash"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Preview",
+                    "screenImage": "/personal_dashboard_cover.png",
+                    "screenGadget": "computer"
+                }
+            ],
+            "tags": ["js-framework", "typescript"]
         }
     ]
 }
