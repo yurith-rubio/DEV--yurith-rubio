@@ -1,6 +1,6 @@
-import experience from "./AboutJobs.json";
+import experience from "../AboutJobs.json";
 import {useContext} from "react";
-import { ThemeContext } from "./ThemeContext.jsx";
+import { ThemeContext } from "../ThemeContext.jsx";
 
 export default function AboutJobs() {
     const context = useContext(ThemeContext);

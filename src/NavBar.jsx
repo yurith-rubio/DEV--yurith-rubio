@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import NavButton from './NavButton.jsx';
-import NavAnchor from './NavAnchor.jsx';
-import GetIcon from './GetIcon.jsx';
+// import NavButton from './NavButton.jsx';
+// import NavAnchor from './NavAnchor.jsx';
+import GetIcon from '@components/GetIcon.jsx';
 
 export default function NavBar(){
     const isMobile = window.innerWidth <= 767;
@@ -36,7 +36,10 @@ export default function NavBar(){
     } else {
         return (
             <div id='NavBar'>
-                <div className='nav-bar-content content-boundary'>
+                <div className="padding-sides">
+                    <img src="/yurith-light-logo.svg" width="100" />
+                </div>
+                <div className='nav-bar-content padding-sides'>
                     <a href='#Services' children='Services' onClick={handleToggleMenu} className="nav-bar-button"></a>
                     <a href='#Projects' children='Projects' onClick={handleToggleMenu} className="nav-bar-button"></a>
                     {/* <NavButton link='/blog' children='Blog' onClick={handleBlogRedirect} /> */}

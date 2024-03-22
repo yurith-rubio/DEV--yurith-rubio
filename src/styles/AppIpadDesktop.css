@@ -61,9 +61,6 @@
         top: 30vh;
     }
     /* PROJECTS */
-    .project.task-description{
-        width: 30%;
-    }
     .contact-wrapper{
         border: 1px solid var(--light-green);
     }

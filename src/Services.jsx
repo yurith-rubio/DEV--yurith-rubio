@@ -1,10 +1,10 @@
 import gsap from 'gsap';
-import ServicesNav from './ServicesNav.jsx';
-import ServiceGraph from './ServiceGraph.jsx';
+import ServicesNav from '@components/ServicesNav.jsx';
+import ServiceGraph from '@components/ServiceGraph.jsx';
 import { useState, useEffect, useRef } from 'react';
-import ServicesInfojson from './ServiceInfo.json';
+import ServicesInfojson from '@/ServiceInfo.json';
 import {useContext} from "react";
-import {ThemeContext} from "./ThemeContext.jsx";
+import {ThemeContext} from "@/ThemeContext.jsx";
 
 export default function Services() {
     const context = useContext(ThemeContext);

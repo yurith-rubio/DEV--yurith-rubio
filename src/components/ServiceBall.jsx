@@ -1,6 +1,6 @@
-import Path from './Path.jsx';
+import Path from '../Path.jsx';
 import { useContext } from "react";
-import {ThemeContext} from "./ThemeContext.jsx";
+import {ThemeContext} from "../ThemeContext.jsx";
 
 export default function ServiceBall(props) {
     const { tag, textClassName, id, disabled, isVisible } = props;

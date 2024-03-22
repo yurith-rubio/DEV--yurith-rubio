@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 import { useEffect, useState } from 'react';
 import ServiceInfo from './ServiceInfo.jsx';
-import CircleNav from './CircleNav.jsx';
+import CircleNav from '../CircleNav.jsx';
 
 export default function ServiceGraph(props) {
     

@@ -1,9 +1,9 @@
 import {NavLink, Outlet, Navigate} from "react-router-dom";
-import AboutInfo from "./AboutInfo";
-import AboutJobs from "./AboutJobs";
+import AboutInfo from "@/components/AboutInfo.jsx";
+import AboutJobs from "@/components/AboutJobs.jsx";
 import { useState } from "react";
 import {useContext} from "react";
-import {ThemeContext} from "./ThemeContext.jsx";
+import {ThemeContext} from "@/ThemeContext.jsx";
 
 export default function About() {
     const context = useContext(ThemeContext);

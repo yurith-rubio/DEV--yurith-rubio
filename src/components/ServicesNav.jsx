@@ -1,4 +1,4 @@
-import ServiceBall from './ServiceBall.jsx';
+import ServiceBall from '@components/ServiceBall.jsx';
 import {useEffect, useState} from 'react';
 
 export default function ServicesNav(props) {

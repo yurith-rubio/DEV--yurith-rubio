@@ -135,6 +135,10 @@ a:not(.storeLink){
 }
 
 /* General */
+.padding-sides{
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .showText{
   opacity: 0;
   animation: showText .5s forwards;
@@ -562,6 +566,7 @@ section{
 
 /* NAVBAR */
 #NavBar{
+  display: flex;
   position: fixed;
   background-color: var(--bg-color);
   padding: 30px 0;
@@ -576,9 +581,13 @@ section{
   width: 100%;
 }
 .nav-bar-button{
-  padding: 8px 20px;
+  padding: 0 20px;
   font-size: 20px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
 }
 .filter-button{
   padding: 5px 15px;

@@ -1,9 +1,9 @@
 import {select} from 'd3';
 import {useRef, useState, useEffect, useContext} from 'react';
-import ProjectsInfo from './ProjectsInfo.jsx';
-import projectsData from './ProjectsData.json';
-import GetIcon from './GetIcon.jsx';
-import {ThemeContext} from "./ThemeContext.jsx";
+import ProjectsInfo from './components/ProjectsInfo.jsx';
+import projectsData from '@/ProjectsData.json';
+import GetIcon from '@/components/GetIcon.jsx';
+import {ThemeContext} from "@/ThemeContext.jsx";
 
 const isMobile = window.innerWidth <= 767;
 
@@ -339,12 +339,12 @@ export default function PortfolioChart() {
           </ul>
           {/* <p className='note'>Store not available? <span className='icon-info'></span>see my partner store <span>here</span> (password: therapiedecken).</p> */}
         </div>
-        <div className='project tasks-details'>
+        {/* <div className='project tasks-details'>
           <div className='max-500'>
             <h2>Work done</h2>
             <ol className='project tasks'></ol>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className='project task-screens'>
         <div id='screens'></div>

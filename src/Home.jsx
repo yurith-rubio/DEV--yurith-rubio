@@ -1,11 +1,11 @@
 import {useState, useEffect} from 'react';
 import svggirl from "/intro-girl.svg";
 import {useContext} from "react";
-import {ThemeContext} from "./ThemeContext.jsx";
-import Services from './Services.jsx';
-import Projects from './Projects.jsx';
-import About from './About.jsx';
-import Contact from "./Contact.jsx";
+import {ThemeContext} from "@/ThemeContext.jsx";
+import Services from '@/Services.jsx';
+import Projects from '@/Projects.jsx';
+import About from '@/About.jsx';
+import Contact from "@/Contact.jsx";
 
 export default function Home() {
     const context = useContext(ThemeContext);
