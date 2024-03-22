@@ -24,9 +24,6 @@
         max-width:40%;
         height: fit-content;
     }
-    .projects-info{
-        min-height: 600px;
-    }
     .service-content, .projects-content{
         display: flex;
         align-items: center;
@@ -41,7 +38,6 @@
     }
     .service-graph, .projects-graph{
         width: 100%;
-        max-width: 60%;
     }
     #ServicesContent{
         margin: 50px 0;

@@ -57,14 +57,14 @@ export default function PortfolioChart() {
   if(isMobile){
     r = 250;
     w = r * 3;
-    radius = 30;
+    radius = 25;
     svgRadius = 350;
     projectsHeight = svgHeightMobile;
     interval = 360/data.length;
   } else {
     r = 300;
     w = r * 3;
-    radius = 30;
+    radius = 25;
     svgRadius = 700;
     projectsHeight = r * 2;
     interval = 360/data.length;
@@ -363,7 +363,7 @@ export default function PortfolioChart() {
   </div>
 
       <div className={context.theme === 'active' ? 'projects-content hidden' : 'projects-content'}>
-      <ProjectsInfo data={data}/>
+      {/* <ProjectsInfo data={data}/> */}
         <div className='projects-graph'>
           <div className="svg-wrapper">
             <svg width={svgRadius} height={projectsHeight}>
@@ -377,6 +377,7 @@ export default function PortfolioChart() {
               </defs>
             </svg>
           </div>
+          <h2 className='project h2-heading'>{data[0].heading}</h2>
           <div id="FiltersTags">
             <div className={isMobile ? 'big-text center' : 'hidden' }>See my work</div>
             <div className='filters-wrapper'>
