@@ -630,6 +630,33 @@
                 }
             ],
             "tags": ["js-frameworks", "python", "data-visualization"]
+        },
+        {
+            "name": "Female Income Inequality",
+            "heading": "Income Inequality - Female (adults) population",
+            "description": ["Data Visualization"],
+            "logo": "/yurith-logo.svg",
+            "shortDescription": "Interested in seeing if it was a fact that as a woman, salaries may be lower to a man's. In this graph I show how this gap differs between countries.",
+            "storeLink": "",
+            "webLink": "https://yurith-rubio.github.io/female-income-inequality/",
+            "client": "Personal project",
+            "tools": ["React", "Python", "Pandas", "D3", "CSS", "Git", "Github", "Netlify"],
+            "tasks": [
+                {
+                    "title": "Cover",
+                    "items": [
+                        "Bar chart and line chart"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Preview",
+                    "screenImage": "/cover-female-income.png",
+                    "screenGadget": "computer"
+                }
+            ],
+            "tags": ["js-frameworks", "python", "data-visualization"]
         }
     ]
 }
