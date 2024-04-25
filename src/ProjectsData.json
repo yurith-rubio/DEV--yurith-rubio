@@ -467,7 +467,7 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["js-framework", "data-visualization", "design"]
+            "tags": ["js-frameworks", "data-visualization", "design"]
         },
         {
             "name": "Avocado Analytics",
@@ -521,7 +521,7 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["js-framework", "typescript", "design"]
+            "tags": ["js-frameworks", "typescript", "design", "data-visualization"]
         },
         {
             "name": "Web Porfolio",
@@ -548,7 +548,7 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["js-framework", "typescript"]
+            "tags": ["js-frameworks", "typescript"]
         },
         {
             "name": "Personal Dashboard",
@@ -575,7 +575,7 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["js-framework", "typescript"]
+            "tags": ["js-frameworks", "typescript"]
         },
         {
             "name": "Power Generation Graph",
@@ -602,7 +602,7 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["js-framework", "python", "data-visualization"]
+            "tags": ["js-frameworks", "python", "data-visualization"]
         },
         {
             "name": "Russia Ukraine Graphs",
@@ -629,7 +629,7 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["js-framework", "python", "data-visualization"]
+            "tags": ["js-frameworks", "python", "data-visualization"]
         }
     ]
 }
