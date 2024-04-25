@@ -483,7 +483,7 @@
                 {
                     "title": "Graph development",
                     "items": [
-                        "Deveop a chart with the use of dash"
+                        "Develop a chart with the use of dash"
                     ]
                 }
             ],
@@ -510,7 +510,7 @@
                 {
                     "title": "Graph development",
                     "items": [
-                        "Deveop a chart with the use of dash"
+                        "Develop a chart with the use of dash"
                     ]
                 }
             ],
@@ -537,7 +537,7 @@
                 {
                     "title": "Graph development",
                     "items": [
-                        "Deveop a chart with the use of dash"
+                        "Develop a chart with the use of dash"
                     ]
                 }
             ],
@@ -564,7 +564,7 @@
                 {
                     "title": "Graph development",
                     "items": [
-                        "Deveop a chart with the use of dash"
+                        "Develop a chart with the use of dash"
                     ]
                 }
             ],
@@ -591,7 +591,7 @@
                 {
                     "title": "Graph development",
                     "items": [
-                        "Deveop a chart with the use of dash"
+                        "Develop a chart with the use of dash"
                     ]
                 }
             ],
@@ -602,7 +602,34 @@
                     "screenGadget": "computer"
                 }
             ],
-            "tags": ["js-framework", "python"]
+            "tags": ["js-framework", "python", "data-visualization"]
+        },
+        {
+            "name": "Russia Ukraine Graphs",
+            "heading": "Russia Ukraine Graphs",
+            "description": ["Data Visualization"],
+            "logo": "/yurith-logo.svg",
+            "shortDescription": "I wanted to develop some different graphs with d3, but do not worry for finding the right data and spend time arranging it, therefore I chose one project I liked with some static graphics to translate the graphs in a more interactive experience.",
+            "storeLink": "",
+            "webLink": "https://russian-ukraine-support.netlify.app/",
+            "client": "Personal project",
+            "tools": ["SvelteKit", "Python", "Pandas", "D3", "CSS", "Git", "Github", "Netlify"],
+            "tasks": [
+                {
+                    "title": "Map graph",
+                    "items": [
+                        "Develop a chart with the use of dash"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Preview",
+                    "screenImage": "/cover-rus-uk.png",
+                    "screenGadget": "computer"
+                }
+            ],
+            "tags": ["js-framework", "python", "data-visualization"]
         }
     ]
 }

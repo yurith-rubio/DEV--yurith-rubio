@@ -9,15 +9,23 @@ export default function About() {
     const context = useContext(ThemeContext);
     const [aboutSelected, setAboutSelected] = useState(true);
     const [experienceSelected, setExperienceSelected] = useState(false);
+    const [studiesSelected, setStudiesSelected] = useState(false);
     
-    function handleClickButton() {
+    function handleClickButton(selected) {
+        console.log(selected);
         context.toggleAbout();
-        if (aboutSelected == true) {
-            setAboutSelected(false);
-            setExperienceSelected(true);
-        } else {
+        if (selected == "about") {
             setAboutSelected(true);
             setExperienceSelected(false);
+            setStudiesSelected(false);
+        } else if (selected == "experience") {
+            setAboutSelected(false);
+            setExperienceSelected(true);
+            setStudiesSelected(false);
+        } else if(selected == "studies") {
+            setAboutSelected(false);
+            setExperienceSelected(false);
+            setStudiesSelected(true);
         }
     }
 
@@ -55,8 +63,9 @@ export default function About() {
                 </div>
                 <div className="about right-side">
                     <div className="about nav">
-                        <button className={aboutSelected ? "selected" : ""} onClick={handleClickButton}>ABOUT ME</button>
-                        <button className={experienceSelected ? "selected" : ""} onClick={handleClickButton}>EXPERIENCE</button>
+                        <button className={aboutSelected ? "selected" : ""} onClick={() => handleClickButton("about")}>ABOUT ME</button>
+                        <button className={experienceSelected ? "selected" : ""} onClick={() => handleClickButton("experience")} >EXPERIENCE</button>
+                        <button className={studiesSelected ? "selected" : ""} onClick={() => handleClickButton("studies")}>STUDIES</button>
                     </div>
                     <div className="about right-info">
                         <AboutInfo />
