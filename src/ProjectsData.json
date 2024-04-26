@@ -657,6 +657,33 @@
                 }
             ],
             "tags": ["js-frameworks", "python", "data-visualization"]
+        },
+        {
+            "name": "Steam games visualization",
+            "heading": "Steam games visualization",
+            "description": ["Data Visualization"],
+            "logo": "/yurith-logo.svg",
+            "shortDescription": "This visualizations is a gift for a friend of mine in which I show the games he has saved on his Steam account which are represented with circles, the colors of the circles show which games have been played more than others and when you click on a circle you can see the name of the game, minutes it has been played and a cover image in the background if the info is provided by the Steam API.",
+            "storeLink": "",
+            "webLink": "https://steam-games-visualisierung.netlify.app/",
+            "client": "Personal project",
+            "tools": ["React", "D3", "CSS", "Git", "Github", "Netlify"],
+            "tasks": [
+                {
+                    "title": "Games visualization",
+                    "items": [
+                        "Visualization with interactivity"
+                    ]
+                }
+            ],
+            "screens": [
+                {
+                    "screenHeading": "Preview",
+                    "screenImage": "/cover-games-visualization.png",
+                    "screenGadget": "computer"
+                }
+            ],
+            "tags": ["js-frameworks", "data-visualization"]
         }
     ]
 }
