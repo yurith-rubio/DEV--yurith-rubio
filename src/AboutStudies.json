@@ -1,0 +1,27 @@
+{
+    "studies": {
+        "1": {
+            "date": "Oct 2023",
+            "heading": "React Certification",
+            "description": "Online certification."
+        },
+        "2": {
+            "date": "Oct 2022",
+            "heading": "Javascript Certification",
+            "description": "Online certification."
+        },
+        "3": {
+            "date": "Oct 2018 - August 2022",
+            "heading": "Master - Hochschule Anhalt Dessau",
+            "description": "Received my Master of Arts in Integrated Design."
+        },
+        "4": {
+            "date": "Aug 2012 - Feb 2017",
+            "heading": "Bachelor Graphic Design - Universidad de Valle de Mexico",
+            "description": [
+                "Tools: Illustrator, Photoshop, InDesign, Dreamweaver, Premier, Flash",
+                "Skills: Editorial Design, Web Design, Photography, Art"
+            ]
+        }
+    }
+}

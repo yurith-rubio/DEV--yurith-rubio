@@ -2,21 +2,35 @@
     "jobs": {
         "1": {
             "date": "2020-2023",
-            "heading": "Shopify developer - Freelancer",
+            "heading": "Web / App developer - Freelancer",
             "description": [
-                "Brainstorming, drafting and sketching website wireframes.",
-                "Development of Websites and Shops using HTML, CSS, Javascript and Liquid.",
-                "Working on a team with Marketing and Design to complete IT projects, with the use of Jira, Trello and Slack.",
-                "New theme features implementation (filters by tag, slide-cart, section blocks development).",
-                "Analysis of UX features’ development for future implementations based on conversation rates.",
-                "Admin, Flow, Launchpad and Scripts management.",
-                "Customize editing",
-                "IT team lead management.",
-                "Making use of the Shopify API to implement custom flows.",
-                "App development (beginner)"
+                "Websites setup (Wordpress / Shopify / Github pages).",
+                "Integration and development of backends using NodeJs/Express and SQLite.",
+                "Frontend using Javascript, React, Vue, SvelteKit, Typescript, HTML, CSS and Liquid.",
+                "Import, reshape and export data using Pandas and SQL.",
+                "Create engaging and creative visualizations using D3.js, Python Dash and Matplotlib.",
+                "Use of REST APIs.",
+                "Making use OpenAI API.",
+                "Deployments using Docker and Podman",
+                "Styling using HTML and CSS"
             ]
         },
         "2": {
+            "date": "2020-2023",
+            "heading": "Shopify Frontend developer & UI Designer - Freelancer",
+            "description": [
+                "Advanced Shopify Plus stores’ development.",
+                "Implementing custom flows and shop features using the JavaScript API.",
+                "Brainstorming, drafting and sketching website wire frames.",
+                "New theme features implementation (filters by tag, slide-cart, section blocks development).",
+                "Analysis of UX features’ development for future implementations based on conversation rates.",
+                "Shop Automation.",
+                "Customization of themes.",
+                "IT team lead management.",
+                "Plan and delegate work to other team members."
+            ]
+        },
+        "3": {
             "date": "2020-2022",
             "heading": "Wordpress web developer - Freelancer",
             "description": [
@@ -24,21 +38,17 @@
                 "Maintenance of existing Web and eCommerce projects, e.g. bug fixes, theme updates."
             ]
         },
-        "3": {
-            "date": "Feb-May 2021",
-            "heading": "Graphic Designer - Itonics",
-            "description": [
-                "Helping the Marketing department."
-            ]
-        },
         "4": {
             "date": "Feb-May 2021",
-            "heading": "Master Student - Hochschule Anhalt Dessau",
-            "description": "Received my Master of Arts in Integrated Design."
+            "heading": "Internship, Visual-Designer - Itonics",
+            "description": [
+                "Working on a team with Marketing and Design.",
+                "Design and adaptation of social media posts and web design components."
+            ]
         },
         "5": {
             "date": "2012-2015",
-            "heading": "UI Designer - Worktrait, MX",
+            "heading": "UI/UX Designer - Worktrait",
             "description": [
                 "Terrific improvement on worktrait.com, with an acute observation of the smallest details on the structure. Enhancement of User Experience and increased surfing time on the Webiste."
             ]
@@ -47,23 +57,19 @@
             "date": "2009-2011",
             "heading": "DiCorp, MX - Senior Visual Designer",
             "description": [
-                "Received great feedback from the Marketing team of MARS Inc. for a high-quality design. Development of creative concepts. Daily work with amazing colleagues."
+                "Received great feedback from the Marketing team of MARS Inc. for a high-quality design.",
+                "Development of creative concepts. Daily team-work with amazing creative colleagues.",
+                "Brainstorming, sketching and developing static and interactive marketing visuals."
             ]
         },
         "7": {
             "date": "2006-2009",
-            "heading": "Junior Visual Designer - La Jabonera Studio, MX",
+            "heading": "Graphic Designer - La Jabonera Studio, MX",
             "description": [
-                "Designing  the Coca-Cola internal magazine.",
-                "Design the packaging for Productos Pennsylvania.",
+                "Design and creative concept of Coca-Cola's internal magazine.",
+                "Design packaging for Productos Pennsylvania.",
+                "Editorial design of Bticino's product catalog.",
                 "Implementation of mock ups for based on market data for Kellogg Company."
-            ]
-        },
-        "8": {
-            "date": "2006",
-            "heading": "Bachelor Student - Universidad del Valle de Mexico",
-            "description": [
-                "Received my Bachelor of Arts in Graphic Design."
             ]
         }
     }

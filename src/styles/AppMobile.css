@@ -65,6 +65,13 @@
         flex-direction: column;
     }
     /* ABOUT PAGE */
+    .about.nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .about.nav button {
+        text-align: left;
+    }
     .about-wrapper{
         flex-direction: column;
     }

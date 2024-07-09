@@ -684,6 +684,7 @@ button, .service-ball-path, .nav-bar-button:not(.active), .service-nav-dot.activ
 .about.nav button{
   color: var(--light-green);
   font-size: 16px;
+  padding-right: 30px;
 }
 .about.nav button.selected{
   text-decoration: underline;

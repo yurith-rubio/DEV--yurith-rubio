@@ -5,7 +5,7 @@ export default function AboutInfo() {
     const context = useContext(ThemeContext);
 
     return <>
-        <div className={context.showJobs ? "hidden" : ""} >
+        <div className={context.showAbout ? "" : "hidden"} >
             <p>
             I am a passionate front-end developer and graphic designer specializing in creating visually appealing and user-friendly websites and applications. With a keen eye for design and a love for technology, I merge aesthetics and functionality to deliver exceptional digital experiences.
             </p>

@@ -13,7 +13,7 @@ export default function AboutJobs() {
     });
 
     return <>
-        <div className={context.showJobs ? "" : "hidden"} >
+        <div className={context.showExperience ? "" : "hidden"} >
             {jobs}
         </div>
     </>
